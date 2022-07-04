@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Base\Base.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Migrations\202108111536_AddSynonim_TreatsDetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Migrations\202108110923_AddSynonim_Treats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>
